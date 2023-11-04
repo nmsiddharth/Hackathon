@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3</title>
+</head>
+<body>
+    <script>
+        const number = prompt("Enter a number:");
+
+    const romanNumerals = [
+    "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
+
+    if (number >= 1 && number <= 10) {
+    const romanNumeral = romanNumerals[number - 1];
+    alert(`The Roman numeral for ${number} is: ${romanNumeral}`);
+    } else {
+    alert("Invalid input. Please enter a number between 1 and 10.");
+    }
+    </script>
+</body>
+</html>
